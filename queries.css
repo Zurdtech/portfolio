@@ -47,6 +47,21 @@
   .close {
     display: none;
   }
+
+  .tab-tittle {
+    top: -14%;
+    left: 30rem;
+  }
+
+  .two {
+    top: -14%;
+    left: 35.5rem;
+  }
+
+  .three {
+    top: -14%;
+    left: 42rem;
+  }
 }
 
 @media (max-width: 880px) {
@@ -61,17 +76,17 @@
   }
 
   .tab-tittle {
-    top: -12%;
+    top: -14%;
     left: 30rem;
   }
 
   .two {
-    top: -12%;
+    top: -14%;
     left: 35.5rem;
   }
 
   .three {
-    top: -12%;
+    top: -14%;
     left: 42rem;
   }
 
@@ -103,23 +118,22 @@
     align-items: center;
   }
 
-  .services-sec {
-    margin-top: 40rem;
-  }
-
   .type-page {
     top: 20rem;
   }
 
   .tab-tittle {
+    top: -18%;
     left: 20rem;
   }
 
   .two {
+    top: -18%;
     left: 25.5rem;
   }
 
   .three {
+    top: -18%;
     left: 32rem;
   }
 }
@@ -149,20 +163,20 @@
   }
 
   .tab-tittle {
-    left: 10rem;
+    top: -25%;
+    left: 15rem;
   }
 
   .two {
-    left: 15.5rem;
+    top: -25%;
+    left: 20.5rem;
   }
 
   .three {
-    left: 22rem;
+    top: -25%;
+    left: 27rem;
   }
 
-  .services-sec {
-    margin-top: 33rem;
-  }
 }
 
 @media (max-width: 445px) {
@@ -182,12 +196,42 @@
     display: flex;
     flex-direction: column;
   }
+
+  .tab-tittle {
+    top: -30%;
+    left: 10rem;
+  }
+
+  .two {
+    top: -30%;
+    left: 15rem;
+  }
+
+  .three {
+    top: -30%;
+    left: 21rem;
+  }
 }
 
 @media (max-width: 400px) {
   .type-page {
     top: 10rem;
     left: 0;
+  }
+
+  .tab-tittle {
+    top: -30%;
+    left: 10rem;
+  }
+
+  .two {
+    top: -30%;
+    left: 15rem;
+  }
+
+  .three {
+    top: -30%;
+    left: 21rem;
   }
 
   .contact-box {
@@ -219,9 +263,24 @@
     top: 8rem;
     left: 0;
   }
+
+  .tab-tittle {
+    top: -33%;
+    left: 7rem;
+  }
+
+  .two {
+    top: -33%;
+    left: 12rem;
+  }
+
+  .three {
+    top: -33%;
+    left: 18rem;
+  }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 319px) {
   .menu-box {
     font-size: 6rem;
     position: absolute;
@@ -255,14 +314,17 @@
   }
 
   .tab-tittle {
+    top: -33%;
     left: 7rem;
   }
 
   .two {
+    top: -33%;
     left: 12rem;
   }
 
   .three {
-    left: 19rem;
+    top: -33%;
+    left: 18rem;
   }
 }

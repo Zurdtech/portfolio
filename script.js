@@ -1,4 +1,4 @@
-"use strict";
+  "use strict";
 
 // const toggle = document
 //   .querySelector(".menu-box")
@@ -26,12 +26,3 @@ function asideAction(){
 }
 
 asideList.forEach(s => s.addEventListener('click', asideAction))
-
-
-// icons.forEach(s => s.classList.remove('active1'))
-//   this.classList.add('active1')
-
-// asideList.forEach( (s) => s.addEventListener("click", function (e) {
-//     document.querySelector(".body").classList.toggle("toggle");
-// })
-// );

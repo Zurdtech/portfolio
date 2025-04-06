@@ -19,7 +19,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 .aside-box {
   width: 30rem;
   height: 100vh;
@@ -109,10 +108,10 @@ html {
   font-size: 3rem;
 }
 
-.open, .close {
+.open,
+.close {
   display: none;
 }
-
 
 /* HOME SECTION START  */
 .home-sec {
@@ -443,6 +442,7 @@ html {
   top: -10%;
   left: 45rem;
   cursor: pointer;
+  transition: 0.3s ease;
 }
 
 .two {
@@ -453,20 +453,14 @@ html {
   left: 55rem;
 }
 
-.tab-tittle:hover {
-  background-color: brown;
-}
-
 .tab-content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   margin-top: 6.5rem;
   padding: 1rem;
-  /* position: absolute; */
-  transition: .8s;
+  transition: 0.8s;
   display: none;
-  /* opacity: 0; */
 }
 
 .tabImage {
@@ -479,14 +473,13 @@ html {
 }
 
 .tabs:checked + .tab-tittle + .tab-content {
-  /* opacity: 1; */
   display: grid;
 }
 
 /* service section start  */
 
 .services-sec {
-  /* margin-top: 65rem; */
+  margin-top: 5rem;
   padding-left: 10px;
   color: white;
 }
@@ -517,16 +510,16 @@ html {
   background-color: rgb(104, 37, 37);
   border-radius: 50%;
   padding: 2rem;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .services:hover .service-icon {
   background-color: brown;
 }
 
-.services:hover .service-tittle{
+.services:hover .service-tittle {
   color: brown;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 /* contact section start */
