@@ -177,6 +177,14 @@
     left: 27rem;
   }
 
+  .contact-list-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 2rem 0;
+  }
+
 }
 
 @media (max-width: 445px) {
