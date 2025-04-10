@@ -274,9 +274,9 @@
   }
 }
 
-@media (max-width: 371px) {
+@media (max-width: 370px) {
   .type-page {
-    top: 8rem;
+    top: 12rem;
     left: 0;
   }
 
@@ -295,6 +295,7 @@
     left: 18rem;
   }
 }
+
 
 @media (max-width: 319px) {
   .menu-box {
