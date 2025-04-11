@@ -25,6 +25,7 @@ html {
   background: linear-gradient(-100deg, skyblue, darkslateblue);
   padding: 2rem 5rem;
   position: fixed;
+  overflow-y: auto;
 }
 
 .profile-box {
