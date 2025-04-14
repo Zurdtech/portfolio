@@ -13,7 +13,6 @@
   }
 
   .menu-box {
-    font-size: 6rem;
     position: absolute;
     top: 2rem;
     right: 2rem;
@@ -306,7 +305,6 @@
 
 @media (max-width: 319px) {
   .menu-box {
-    font-size: 6rem;
     position: absolute;
     top: 2rem;
     right: 5px;
