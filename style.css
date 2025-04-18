@@ -19,6 +19,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.content{
+  padding: 2px;
+}
+
 .aside-box {
   width: 30rem;
   height: 100vh;
@@ -229,6 +233,7 @@ html {
   margin-top: 2rem;
   padding-left: 10px;
   color: white;
+  scroll-margin-top: 2rem;
 }
 
 .header {
@@ -379,6 +384,7 @@ html {
   margin-top: 5rem;
   padding-left: 10px;
   color: white;
+  scroll-margin-top: 2rem;
 }
 
 .resume-box {
@@ -426,6 +432,7 @@ html {
   padding-left: 10px;
   color: white;
   position: relative;
+  scroll-margin-top: 2rem;
 }
 
 .tab-box {
@@ -440,7 +447,7 @@ html {
   font-size: 2rem;
   margin-top: 3rem;
   position: absolute;
-  top: -10%;
+  top: -15%;
   left: 45rem;
   cursor: pointer;
   transition: 0.3s ease;
@@ -483,6 +490,7 @@ html {
   margin-top: 5rem;
   padding-left: 10px;
   color: white;
+  scroll-margin-top: 2rem;
 }
 
 .sevices-box {
@@ -529,6 +537,7 @@ html {
   margin-top: 5rem;
   padding-left: 10px;
   color: white;
+  scroll-margin-top: 2rem;
 }
 
 .contact-box {

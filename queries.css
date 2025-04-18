@@ -48,17 +48,17 @@
   }
 
   .tab-tittle {
-    top: -14%;
+    top: -16%;
     left: 30rem;
   }
 
   .two {
-    top: -14%;
+    top: -16%;
     left: 35.5rem;
   }
 
   .three {
-    top: -14%;
+    top: -16%;
     left: 42rem;
   }
 }
@@ -75,17 +75,17 @@
   }
 
   .tab-tittle {
-    top: -14%;
+    top: -20%;
     left: 30rem;
   }
 
   .two {
-    top: -14%;
+    top: -20%;
     left: 35.5rem;
   }
 
   .three {
-    top: -14%;
+    top: -20%;
     left: 42rem;
   }
 
@@ -110,6 +110,35 @@
   }
 }
 
+@media (max-width: 650px) {
+  .type-page {
+    top: 20rem;
+    left: 0;
+  }
+
+  .tab-tittle {
+    top: -25%;
+    left: 20rem;
+  }
+
+  .two {
+    top: -25%;
+    left: 25.5rem;
+  }
+
+  .three {
+    top: -25%;
+    left: 32rem;
+  }
+}
+
+@media (max-width: 611px) {
+  .type-page {
+    top: 16rem;
+    left: 0;
+  }
+}
+
 @media (max-width: 600px) {
   .services {
     display: flex;
@@ -122,32 +151,18 @@
   }
 
   .tab-tittle {
-    top: -18%;
+    top: -22%;
     left: 20rem;
   }
 
   .two {
-    top: -18%;
+    top: -22%;
     left: 25.5rem;
   }
 
   .three {
-    top: -18%;
+    top: -22%;
     left: 32rem;
-  }
-}
-
-@media (max-width: 611px) {
-  .type-page {
-    top: 16rem;
-    left: 0;
-  }
-}
-
-@media (max-width: 650px) {
-  .type-page {
-    top: 20rem;
-    left: 0;
   }
 }
 
@@ -162,17 +177,17 @@
   }
 
   .tab-tittle {
-    top: -25%;
+    top: -33%;
     left: 15rem;
   }
 
   .two {
-    top: -25%;
+    top: -33%;
     left: 20.5rem;
   }
 
   .three {
-    top: -25%;
+    top: -33%;
     left: 27rem;
   }
 
@@ -235,17 +250,17 @@
   }
 
   .tab-tittle {
-    top: -30%;
+    top: -40%;
     left: 10rem;
   }
 
   .two {
-    top: -30%;
+    top: -40%;
     left: 15rem;
   }
 
   .three {
-    top: -30%;
+    top: -40%;
     left: 21rem;
   }
 
@@ -280,17 +295,17 @@
   }
 
   .tab-tittle {
-    top: -33%;
+    top: -45%;
     left: 7rem;
   }
 
   .two {
-    top: -33%;
+    top: -45%;
     left: 12rem;
   }
 
   .three {
-    top: -33%;
+    top: -45%;
     left: 18rem;
   }
 }
@@ -301,7 +316,6 @@
     left: 0;
   }
 }
-
 
 @media (max-width: 319px) {
   .menu-box {
@@ -336,17 +350,17 @@
   }
 
   .tab-tittle {
-    top: -33%;
+    top: -45%;
     left: 7rem;
   }
 
   .two {
-    top: -33%;
+    top: -45%;
     left: 12rem;
   }
 
   .three {
-    top: -33%;
+    top: -45%;
     left: 18rem;
   }
 }
