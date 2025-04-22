@@ -27,3 +27,10 @@ function asideAction(){
 }
 
 asideList.forEach(s => s.addEventListener('click', asideAction))
+
+let typed = new Typed('.movingText', {
+  strings: ['Web Developer', 'Web Designer', 'Technologist', 'Freelancer'],
+  typeSpeed: 150,
+  backSpeed: 150, 
+  loop: true
+})

@@ -111,11 +111,6 @@
 }
 
 @media (max-width: 650px) {
-  .type-page {
-    top: 20rem;
-    left: 0;
-  }
-
   .tab-tittle {
     top: -25%;
     left: 20rem;
@@ -132,22 +127,11 @@
   }
 }
 
-@media (max-width: 611px) {
-  .type-page {
-    top: 16rem;
-    left: 0;
-  }
-}
-
 @media (max-width: 600px) {
   .services {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .type-page {
-    top: 20rem;
   }
 
   .tab-tittle {
@@ -167,10 +151,6 @@
 }
 
 @media (max-width: 500px) {
-  .type-page {
-    top: 20rem;
-  }
-
   .about-list-box {
     display: flex;
     flex-direction: column;
@@ -201,19 +181,7 @@
 
 }
 
-@media (max-width: 445px) {
-  .type-page {
-    top: 14rem;
-    left: 0;
-  }
-}
-
 @media (max-width: 421px) {
-  .type-page {
-    top: 12rem;
-    left: 0;
-  }
-
   .tittle {
     display: flex;
     flex-direction: column;
@@ -244,9 +212,8 @@
 }
 
 @media (max-width: 400px) {
-  .type-page {
-    top: 10rem;
-    left: 0;
+  .autoType{
+    top: 50%;
   }
 
   .tab-tittle {
@@ -289,11 +256,6 @@
 }
 
 @media (max-width: 370px) {
-  .type-page {
-    top: 10rem;
-    left: 0;
-  }
-
   .tab-tittle {
     top: -45%;
     left: 7rem;
@@ -310,13 +272,6 @@
   }
 }
 
-@media (max-width: 340px) {
-  .type-page {
-    top: 7rem;
-    left: 0;
-  }
-}
-
 @media (max-width: 319px) {
   .menu-box {
     position: absolute;
@@ -325,11 +280,6 @@
     color: white;
     z-index: 9999;
     display: flex;
-  }
-
-  .type-page {
-    top: 5rem;
-    left: 0;
   }
 
   .message-box {

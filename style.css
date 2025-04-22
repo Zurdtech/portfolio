@@ -145,7 +145,7 @@ html {
   }
 }
 
-.type-page {
+/* .type-page {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -225,6 +225,23 @@ html {
   100% {
     left: 0;
   }
+} */
+
+
+.autoType{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 2rem;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  color: whitesmoke;
+}
+
+.movingText{
+  color: deeppink;
 }
 
 /* ABOUT SECTION START  */
