@@ -182,23 +182,22 @@
 }
 
 @media (max-width: 421px) {
-  .tittle {
-    display: flex;
-    flex-direction: column;
+  .autoType{
+    top: 40%;
   }
 
   .tab-tittle {
-    top: -30%;
+    top: -25%;
     left: 10rem;
   }
 
   .two {
-    top: -30%;
+    top: -25%;
     left: 15rem;
   }
 
   .three {
-    top: -30%;
+    top: -25%;
     left: 21rem;
   }
 
@@ -213,21 +212,26 @@
 
 @media (max-width: 400px) {
   .autoType{
-    top: 50%;
+    top: 40%;
+  }
+
+  .tittle{
+    font-size: 2.8rem;
+    font-weight: 700;
   }
 
   .tab-tittle {
-    top: -40%;
+    top: -28%;
     left: 10rem;
   }
 
   .two {
-    top: -40%;
+    top: -28%;
     left: 15rem;
   }
 
   .three {
-    top: -40%;
+    top: -28%;
     left: 21rem;
   }
 
@@ -256,19 +260,39 @@
 }
 
 @media (max-width: 370px) {
+  .autoType{
+    top: 30%;
+  }
+
   .tab-tittle {
-    top: -45%;
+    top: -30%;
     left: 7rem;
   }
 
   .two {
-    top: -45%;
+    top: -30%;
     left: 12rem;
   }
 
   .three {
-    top: -45%;
+    top: -30%;
     left: 18rem;
+  }
+}
+
+@media (max-width: 321px) {
+  .autoType{
+    top: 40%;
+  }
+
+  .tittle{
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .myName{
+    font-size: 1.6rem;
+    font-weight: 700;
   }
 }
 
@@ -300,17 +324,17 @@
   }
 
   .tab-tittle {
-    top: -45%;
+    top: -35%;
     left: 7rem;
   }
 
   .two {
-    top: -45%;
+    top: -35%;
     left: 12rem;
   }
 
   .three {
-    top: -45%;
+    top: -35%;
     left: 18rem;
   }
 }
