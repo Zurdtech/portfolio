@@ -39,7 +39,7 @@ asideList.forEach((s) => s.addEventListener("click", asideAction));
 // autoType start
 
 let typed = new Typed(".movingText", {
-  strings: ["Web Developer.", "Web Designer.", "Technologist.", "Freelancer.", 'Analyst.'],
+  strings: ["A Web Developer.", "A Web Designer.", "A Technologist.", "A Freelancer.", 'An Analyst.'],
   typeSpeed: 100,
   backSpeed: 100,
   loop: true,

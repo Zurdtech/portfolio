@@ -449,7 +449,7 @@ html {
 
 .descriptionBox {
   position: absolute;
-  bottom: -100rem;
+  bottom: -100%;
   background: linear-gradient(rgba(0, 0, 0, 0.6), #0996e7);
   height: fit-content;
   width: 100%;
