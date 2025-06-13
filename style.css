@@ -84,7 +84,7 @@ html {
   justify-content: flex-end;
 }
 
-.list-link {
+.list-link, .list-link:visited {
   display: flex;
   gap: 1rem;
   color: rgba(2, 2, 2, 0.932);
@@ -96,7 +96,7 @@ html {
   color: whitesmoke;
 }
 
-.list-link:hover .name {
+.list-link:hover, .list-link:active .name {
   color: white;
 }
 
@@ -125,6 +125,7 @@ html {
 }
 
 /* HOME SECTION START  */
+
 .home-sec {
   position: relative;
 }
@@ -138,8 +139,8 @@ html {
   width: 10%;
   border-radius: 50%;
   position: absolute;
-  bottom: 2rem;
-  right: 0;
+  bottom: 2.5rem;
+  right: 2rem;
   animation: rotate 10s linear infinite;
 }
 
@@ -189,6 +190,7 @@ html {
   padding-left: 10px;
   color: white;
   scroll-margin-top: 2rem;
+  position: relative;
 }
 
 .header {
@@ -480,7 +482,7 @@ html {
 }
 
 .pageLink {
-  font-size: 2rem;
+  font-size: 12px;
   text-decoration: none;
   padding: 1rem 3rem;
   background-color: blueviolet;
